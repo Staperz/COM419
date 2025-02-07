@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(110, 102, 182);
+    text-align: center;
+    filter: invert();
+    cursor:url('../Week1-Task1/images/middlefinger.png'), auto;
+
+}
+h1{
+    text-align: center;
+    filter: blur(10px);
+}
+h1:hover{
+    filter:blur(0)
+}
+p{
+    color:purple;
+    text-align:center;
+    filter: blur(10px);
+}
+p:hover{
+    filter:blur(0);
+    color:brightness(0%);
+    font-size:50px;
+}
+ul{
+    color:purple;
+    text-align: center;
+    filter: blur(10px);
+}
+ul:hover{
+        filter:blur(0)
+}
+
+h2{
+    color:purple;
+    text-decoration: underline;
+    text-align: center;
+    filter: blur(10px);
+}
+h2:hover{
+    filter:blur(0)
+}
+img{
+    max-width:200px;
+    border-color: greenyellow;
+    border-width: 20px;
+    filter: blur(10px);
+
+}
+img:hover{
+    filter:blur(0)
+}
